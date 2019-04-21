@@ -1,4 +1,4 @@
-#Slither
+# Slither
 
 This repository contains code for Slither game.
 
