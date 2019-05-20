@@ -1,6 +1,3 @@
-# Till tutorial 82
-# https://bigsoundbank.com/detail-1137-firecracker-with-wick-1.html - fire sound
-# https://bigsoundbank.com/detail-1023-explosion-far-away.html - explosion sound
 import pygame, sys, time, random, math
 from pygame.locals import *
 
