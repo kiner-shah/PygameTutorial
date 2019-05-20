@@ -60,7 +60,7 @@ def pause():
                 if event.key == K_c:
                     paused = False
                 elif event.key == K_q:
-                    pygame.qui()
+                    pygame.quit()
                     sys.exit()
         clock.tick(5)
 
@@ -132,7 +132,7 @@ def game_loop():
     # Head of snake
     lead_x = display_width / 2
     lead_y = display_height / 2
-    
+
     lead_x_change = 10
     lead_y_change = 0
 
@@ -148,13 +148,13 @@ def game_loop():
     while not gameExit:
         if gameOver == True:
             #gameDisplay.fill(WHITE)
-            message_to_screen("Game over", 
-                                RED, 
-                                -50, 
+            message_to_screen("Game over",
+                                RED,
+                                -50,
                                 "large")
-            message_to_screen("Press C to play again or Q to quit", 
+            message_to_screen("Press C to play again or Q to quit",
                                 BLACK,
-                                50, 
+                                50,
                                 "medium")
             pygame.display.update()
 
