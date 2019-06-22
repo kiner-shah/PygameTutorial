@@ -1,4 +1,4 @@
-Following image credits to [Kenney](Kenney.nl):
+Following image credits to [Kenney](www.kenney.nl):
 1. meteorBrown_big1.png
 2. meteorBrown_med1.png
 3. meteorBrown_med3.png
