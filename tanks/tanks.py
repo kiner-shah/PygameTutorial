@@ -346,16 +346,16 @@ def fire_shell(gun_xy, tank_x, tank_y, turret_pos, gun_power, barrier_x, barrier
             hit_y = int(display_height - ground_height)
             hit_x = int(gun_xy[0] + vx * t_impact)
             if e_tank_x + 10 > hit_x and e_tank_x - 10 < hit_x:
-                print "P CRITICAL HIT"
+                #print "P CRITICAL HIT"
                 damage = 25
             elif e_tank_x + 15 > hit_x and e_tank_x - 15 < hit_x:
-                print "P HARD HIT"
+                #print "P HARD HIT"
                 damage = 18
             elif e_tank_x + 25 > hit_x and e_tank_x - 25 < hit_x:
-                print "P MEDIUM HIT"
+                #print "P MEDIUM HIT"
                 damage = 10
             elif e_tank_x + 35 > hit_x and e_tank_x - 35 < hit_x:
-                print "P LIGHT HIT"
+                #print "P LIGHT HIT"
                 damage = 5
             explosion(hit_x, hit_y)
             fire = False
@@ -416,16 +416,16 @@ def enemy_fire_shell(gun_xy, tank_x, tank_y, turret_pos, gun_power, barrier_x, b
             hit_y = int(display_height - ground_height)
             hit_x = int(gun_xy[0] + vx * t_impact)
             if p_tank_x + 10 > hit_x and p_tank_x - 10 < hit_x:
-                print "CRITICAL HIT"
+                #print "CRITICAL HIT"
                 damage = 25
             elif p_tank_x + 15 > hit_x and p_tank_x - 15 < hit_x:
-                print "HARD HIT"
+                #print "HARD HIT"
                 damage = 18
             elif p_tank_x + 25 > hit_x and p_tank_x - 25 < hit_x:
-                print "MEDIUM HIT"
+                #print "MEDIUM HIT"
                 damage = 10
             elif p_tank_x + 35 > hit_x and p_tank_x - 35 < hit_x:
-                print "LIGHT HIT"
+                #print "LIGHT HIT"
                 damage = 5
             explosion(hit_x, hit_y)
             fire = False

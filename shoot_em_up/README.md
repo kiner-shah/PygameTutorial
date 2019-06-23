@@ -1,5 +1,7 @@
 # Shoot them up!
 
+![Shoot-em up screenshot](shoot_em_up_screenshot.png)
+
 This repository contains code for "Shoot them up!" game.
 
 Resources for pygame:

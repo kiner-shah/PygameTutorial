@@ -1,3 +1,5 @@
+![Tanks game screenshot](tanks_screenshot.png)
+
 This folder contains code for Tanks game.
 
 Resources for pygame:
